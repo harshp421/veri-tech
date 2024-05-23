@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*globle css*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.line {
+
+    max-width: 600px;
+    height: 2px;
+    border: 1px dashed #333333;
+    margin: 15px auto;
+}
+
+.m-1 {
+    margin: 2rem !important; 
+
+}
+
+/*org section*/
+.org_section,
+.org {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.org_title {
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #333333;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.org_desc {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    max-width: 830px;
+    font-weight: 400;
+}
+
+/*team -section*/
+.team_section {
+    margin-top: 25px;
+}
+
+.team_label {
+    margin-top: 12px;
+    padding: 5px 10px;
+    font-size: medium;
+}
+
+.team-profile_1,.team-profile_2,.team-profile_3,.team-profile_4 ,.team-profile_5,.team-profile_6{
+     /* width: 550px;  */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 100px;
+     flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+
+.team-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
